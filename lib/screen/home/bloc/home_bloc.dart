@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:bloc/bloc.dart';
-import 'package:dio/dio.dart';
+// import 'package:dio/dio.dart';
 import 'package:equatable/equatable.dart';
 import 'package:meta/meta.dart';
 
@@ -11,7 +11,7 @@ part 'home_state.dart';
 class HomeBloc extends Bloc<HomeEvent, HomeState> {
   HomeBloc() : super(HomeInitial());
 
-  Dio _dio = Dio();
+  // Dio _dio = Dio();
 
   @override
   Stream<HomeState> mapEventToState(
